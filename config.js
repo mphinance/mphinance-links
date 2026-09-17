@@ -17,11 +17,11 @@ window.SITE = {
 
   /* ---- Who you are (top of the page) ---- */
   identity: {
-    name:     "mphinance",
-    nameEm:   "",
-    tagline:  "Trader · Builder · Writer",
+    name:     "Momentum",
+    nameEm:   "Phinance",
+    tagline:  "The Phund",
     handle:   "@mphinance",
-    bio:      "Quant trading tools, market research, and the occasional autopsy of a bad trade. Everything I build and write, in one place.",
+    bio:      "The stock market is a device for transferring money from the impatient to the patient. I build the tools that keep me on the right side of that trade, and write about the times I wasn't.",
     monogram: "mp"
   },
 
@@ -33,21 +33,21 @@ window.SITE = {
       links: [
         {
           title: "TraderMatrix",
-          sub:   "tradermatrix.pro · options analytics platform",
+          sub:   "tradermatrix.pro · the platform I actually trade with",
           url:   "https://www.tradermatrix.pro/?ref=MPHINANCE",
           icon:  "brain",
           featured: true,
-          tag:   "Featured"
+          tag:   "Real money"
         },
         {
           title: "Trading Tools",
-          sub:   "tools.mphinance.com · screeners, scanners, the good stuff",
+          sub:   "tools.mphinance.com · free screeners, built between trades",
           url:   "https://tools.mphinance.com",
           icon:  "chart"
         },
         {
           title: "TickerTrace",
-          sub:   "tickertrace.pro · ETF holdings-change tracker",
+          sub:   "tickertrace.pro · ETF flows, before the fund tells you",
           url:   "https://tickertrace.pro",
           icon:  "link"
         }
@@ -58,7 +58,7 @@ window.SITE = {
       links: [
         {
           title: "The Substack",
-          sub:   "mphinance.substack.com · essays, research, market notes",
+          sub:   "mphinance.substack.com · the wins, the losses, and the damn autopsies",
           url:   "https://mphinance.substack.com",
           icon:  "mail"
         }
@@ -69,7 +69,7 @@ window.SITE = {
       links: [
         {
           title: "GitHub",
-          sub:   "@mphinance · open-source tools and experiments",
+          sub:   "@mphinance · vibe-coded with my AI copilot, warts and all",
           url:   "https://github.com/mphinance",
           icon:  "code"
         }
@@ -81,19 +81,19 @@ window.SITE = {
   socials: [],
 
   /* ---- Footer + legal ---- */
-  footerName: "mphinance",
-  disclosure: "Content is for educational purposes only and is not financial advice. Trading involves substantial risk of loss. Some links are affiliate links — mphinance may earn a commission at no extra cost to you."
+  footerName: "Momentum Phinance",
+  disclosure: "Educational only, not financial advice. Trading involves real risk of loss, ask my P&L. Some links are affiliate links: using them costs you nothing and buys me a coffee."
 
   /* =============================================================================
      Available "icon" names you can use above:
-       brain      – lightbulb/AI (good for TraderMatrix)
-       chart      – line chart (good for tools/indicators)
-       link       – generic chain link (use for websites)
-       mail       – newsletter / email
-       code       – GitHub / code
-       book       – course / guide / ebook
-       cart       – shopping / store
-       discord    – Discord logo
-       x          – X / Twitter logo
+       brain      : lightbulb/AI (good for TraderMatrix)
+       chart      : line chart (good for tools/indicators)
+       link       : generic chain link (use for websites)
+       mail       : newsletter / email
+       code       : GitHub / code
+       book       : course / guide / ebook
+       cart       : shopping / store
+       discord    : Discord logo
+       x          : X / Twitter logo
      ============================================================================= */
 };
