@@ -7,6 +7,11 @@ on GitHub Pages, your own domain if you want one.
 This repo is the live example: [mphinance.com](https://mphinance.com). Fork it,
 swap the config, ship your own version tonight.
 
+<p>
+  <img src="assets/screenshot-top.jpg" alt="Momentum Phinance link hub, top of page" width="49%">
+  <img src="assets/screenshot-links.jpg" alt="Momentum Phinance link hub, links and QR card" width="49%">
+</p>
+
 ## Why this over Linktree
 
 - You own the code and the data. Nobody can rebrand it, rate-limit it, or put
@@ -41,9 +46,15 @@ swap the config, ship your own version tonight.
 
 That's the whole build. No frameworks, no npm install, no dashboard.
 
-## Regenerate the QR code
+## The QR code
 
-If your live URL ever changes:
+<img src="assets/qr.png" alt="QR code linking to mphinance.com" width="140">
+
+Scans straight to [mphinance.com](https://mphinance.com). Every page built from
+this template has one, generated straight from the live URL and dropped in
+`assets/qr.png`.
+
+Regenerate yours after forking (or any time the URL changes):
 
 ```bash
 pip install qrcode pillow
