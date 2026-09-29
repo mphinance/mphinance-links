@@ -54,6 +54,29 @@ window.SITE = {
       ]
     },
     {
+      heading: "Watch & Listen",
+      links: [
+        {
+          title: "TraderMatrix Live on YouTube",
+          sub:   "@TraderMatrixHQ · live sessions and market breakdowns",
+          url:   "https://www.youtube.com/@TraderMatrixHQ",
+          icon:  "youtube"
+        },
+        {
+          title: "TraderMatrix Live Podcast",
+          sub:   "Spotify · the live shows, for your commute",
+          url:   "https://open.spotify.com/show/033UCE53GPOXnlyCCSEYNC",
+          icon:  "podcast"
+        },
+        {
+          title: "TraderMatrix on X",
+          sub:   "@TraderMatrixHQ · updates between the bells",
+          url:   "https://x.com/TraderMatrixHQ",
+          icon:  "x"
+        }
+      ]
+    },
+    {
       heading: "Writing",
       links: [
         {
@@ -95,5 +118,7 @@ window.SITE = {
        cart       : shopping / store
        discord    : Discord logo
        x          : X / Twitter logo
+       youtube    : YouTube logo
+       podcast    : microphone (Spotify / podcasts)
      ============================================================================= */
 };
