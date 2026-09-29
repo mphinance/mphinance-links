@@ -50,6 +50,12 @@ window.SITE = {
           sub:   "tickertrace.pro · ETF flows, before the fund tells you",
           url:   "https://tickertrace.pro",
           icon:  "link"
+        },
+        {
+          title: "SCANLINE",
+          sub:   "TradingView data, AI'ed · quant analytics on the charts you already use",
+          url:   "https://mphinance.github.io/scanline/",
+          icon:  "chart"
         }
       ]
     },
@@ -77,6 +83,23 @@ window.SITE = {
       ]
     },
     {
+      heading: "Partners",
+      links: [
+        {
+          title: "ThetaDaddies",
+          sub:   "thetadaddies.ai · the operating system for options sellers",
+          url:   "https://www.thetadaddies.ai",
+          icon:  "link"
+        },
+        {
+          title: "The Zero Hour Group",
+          sub:   "thezerohourgroup.com · small-cap defense & drone stock research",
+          url:   "https://thezerohourgroup.com",
+          icon:  "link"
+        }
+      ]
+    },
+    {
       heading: "Writing",
       links: [
         {
@@ -94,6 +117,18 @@ window.SITE = {
           title: "GitHub",
           sub:   "@mphinance · vibe-coded with my AI copilot, warts and all",
           url:   "https://github.com/mphinance",
+          icon:  "code"
+        },
+        {
+          title: "momentum-mcp",
+          sub:   "Give your AI agent a Bloomberg terminal · MCP server for quant analysis",
+          url:   "https://github.com/mphinance/momentum-mcp",
+          icon:  "code"
+        },
+        {
+          title: "Alpha Skills Suite",
+          sub:   "129 AI agent skills for quant trading and market intel",
+          url:   "https://github.com/mphinance/alpha-skills",
           icon:  "code"
         }
       ]
