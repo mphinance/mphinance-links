@@ -112,6 +112,7 @@
   .rule{display:flex;align-items:center;gap:14px;margin:38px 0 18px;opacity:0;animation:rise .7s .44s ease forwards}
   .rule span{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.26em;
     text-transform:uppercase;color:var(--ink-faint);white-space:nowrap}
+  .secnote{margin:-6px 4px 14px;text-align:center;font-family:"JetBrains Mono",monospace;font-size:11.5px;line-height:1.6;color:var(--ink-faint);opacity:0;animation:rise .7s .44s ease forwards}
   .rule::before,.rule::after{content:"";height:1px;flex:1;
     background:linear-gradient(90deg,transparent,var(--card-line),transparent)}
 
@@ -197,7 +198,7 @@
   }
   @media (prefers-reduced-motion:reduce){
     *{animation:none!important;transition:none!important}
-    .link,.name,.llc,.handle,.bio,.rule,.socials,.disc,.foot,.avatar,.qr{opacity:1!important;transform:none!important}
+    .link,.name,.llc,.handle,.bio,.rule,.secnote,.socials,.disc,.foot,.avatar,.qr{opacity:1!important;transform:none!important}
   }
 </style>
 </head>
@@ -254,6 +255,7 @@
   var spark=0;
   (S.sections||[]).forEach(function(sec){
     if(sec.heading) html+='<div class="rule"><span>'+esc(sec.heading)+'</span></div>';
+    if(sec.note) html+='<p class="secnote">'+esc(sec.note)+'</p>';
     html+='<div class="links">';
     (sec.links||[]).forEach(function(l){
       var feat=l.featured?' feat':'';

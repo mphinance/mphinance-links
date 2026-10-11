@@ -10,6 +10,9 @@
      3. Pick an "icon" from the list at the bottom of this file.
      4. Save. On GitHub the page updates automatically in ~1 minute.
 
+   Optional: add  note: "text",  next to a section's heading to show a small
+   blurb under it.
+
    Keep the commas exactly where they are. Wrap text in "quotes".
    ============================================================================= */
 
@@ -73,6 +76,36 @@ window.SITE = {
           sub:   "@TraderMatrixHQ · updates between the bells",
           url:   "https://x.com/TraderMatrixHQ",
           icon:  "x"
+        }
+      ]
+    },
+    {
+      heading: "Affiliates",
+      note: "Want to support the work? Sign up through these links. It costs you nothing and I get a small kickback.",
+      links: [
+        {
+          title: "Nous Research Portal",
+          sub:   "portal.nousresearch.com · the models I run my agents on",
+          url:   "https://portal.nousresearch.com/r/mphinance",
+          icon:  "brain"
+        },
+        {
+          title: "Webull",
+          sub:   "webull.com · the broker behind my trades",
+          url:   "https://www.webull.com/s/3KhusgAaGotiu2HckV",
+          icon:  "chart"
+        },
+        {
+          title: "tastytrade",
+          sub:   "tastytrade.com · options-first broker",
+          url:   "https://open.tastytrade.com/signup/?referralCode=XTENHXKC5B",
+          icon:  "chart"
+        },
+        {
+          title: "TradingView",
+          sub:   "tradingview.com · the charts I live in",
+          url:   "https://www.tradingview.com/?aff_id=159450",
+          icon:  "chart"
         }
       ]
     },
