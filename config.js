@@ -37,10 +37,17 @@ window.SITE = {
         {
           title: "TraderMatrix",
           sub:   "tradermatrix.pro · the platform I actually trade with",
-          url:   "https://www.tradermatrix.pro/?ref=MPHINANCE",
+          url:   "https://www.tradermatrix.pro/?utm_source=mphinance&utm_medium=links",
           icon:  "brain",
           featured: true,
           tag:   "Real money"
+        },
+        {
+          title: "Vero",
+          sub:   "vero.tradermatrix.pro · free candlestick trainer. Up or down? No account, no ads.",
+          url:   "https://vero.tradermatrix.pro",
+          icon:  "book",
+          tag:   "Free"
         },
         {
           title: "Trading Tools",
