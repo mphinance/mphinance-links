@@ -7,8 +7,13 @@
    How to add a link:
      1. Copy one of the { ... } blocks inside a section's "links" list.
      2. Change the title, sub (small grey text), and url.
-     3. Pick an "icon" from the list at the bottom of this file.
+     3. Pick an "icon" from the list at the bottom of this file. Brand names
+        (youtube, spotify, github...) render the real app icon in brand color.
      4. Save. On GitHub the page updates automatically in ~1 minute.
+
+   Optional per-link extras:
+     img:   "assets/icons/thing.png"   use your own image as the tile (overrides icon)
+     color: "#ff6719"                  override the glow / hover color of the card
 
    Optional: add  note: "text",  next to a section's heading to show a small
    blurb under it.
@@ -46,7 +51,7 @@ window.SITE = {
           title: "Vero",
           sub:   "vero.tradermatrix.pro · free candlestick trainer. Up or down? No account, no ads.",
           url:   "https://vero.tradermatrix.pro",
-          icon:  "book",
+          icon:  "candles",
           tag:   "Free"
         },
         {
@@ -59,7 +64,7 @@ window.SITE = {
           title: "TickerTrace",
           sub:   "tickertrace.pro · ETF flows, before the fund tells you",
           url:   "https://tickertrace.pro",
-          icon:  "link"
+          icon:  "flow"
         }
       ]
     },
@@ -76,7 +81,7 @@ window.SITE = {
           title: "TraderMatrix Live Podcast",
           sub:   "Spotify · the live shows, for your commute",
           url:   "https://open.spotify.com/show/033UCE53GPOXnlyCCSEYNC",
-          icon:  "podcast"
+          icon:  "spotify"
         },
         {
           title: "TraderMatrix on X",
@@ -94,25 +99,25 @@ window.SITE = {
           title: "Nous Research Portal",
           sub:   "portal.nousresearch.com · the models I run my agents on",
           url:   "https://portal.nousresearch.com/r/mphinance",
-          icon:  "brain"
+          icon:  "nous"
         },
         {
           title: "Webull",
           sub:   "webull.com · the broker behind my trades",
           url:   "https://www.webull.com/s/3KhusgAaGotiu2HckV",
-          icon:  "chart"
+          icon:  "webull"
         },
         {
           title: "tastytrade",
           sub:   "tastytrade.com · options-first broker",
           url:   "https://open.tastytrade.com/signup/?referralCode=XTENHXKC5B",
-          icon:  "chart"
+          icon:  "tastytrade"
         },
         {
           title: "TradingView",
           sub:   "tradingview.com · the charts I live in",
           url:   "https://www.tradingview.com/?aff_id=159450",
-          icon:  "chart"
+          icon:  "tradingview"
         }
       ]
     },
@@ -123,7 +128,7 @@ window.SITE = {
           title: "The Substack",
           sub:   "mphinance.substack.com · the wins, the losses, and the damn autopsies",
           url:   "https://mphinance.substack.com",
-          icon:  "mail"
+          icon:  "substack"
         }
       ]
     },
@@ -134,7 +139,7 @@ window.SITE = {
           title: "GitHub",
           sub:   "@mphinance · vibe-coded with my AI copilot, warts and all",
           url:   "https://github.com/mphinance",
-          icon:  "code"
+          icon:  "github"
         }
       ]
     }
@@ -148,17 +153,26 @@ window.SITE = {
   disclosure: "Educational only, not financial advice. Trading involves real risk of loss, ask my P&L. Some links are affiliate links: using them costs you nothing and buys me a coffee."
 
   /* =============================================================================
-     Available "icon" names you can use above:
-       brain      : lightbulb/AI (good for TraderMatrix)
-       chart      : line chart (good for tools/indicators)
-       link       : generic chain link (use for websites)
-       mail       : newsletter / email
-       code       : GitHub / code
-       book       : course / guide / ebook
-       cart       : shopping / store
-       discord    : Discord logo
-       x          : X / Twitter logo
-       youtube    : YouTube logo
-       podcast    : microphone (Spotify / podcasts)
+     Available "icon" names you can use above.
+
+     Real app icons (brand glyph on the brand color):
+       youtube      spotify      x            github
+       substack     tradingview  discord
+
+     Brand-colored lettermarks (no public vector logo, so it's a letter on the
+     brand color; set  img:  to use the real PNG instead):
+       webull       tastytrade   nous
+
+     Generic glyphs, each on its own color:
+       brain      : cyan, lightbulb/AI (good for TraderMatrix)
+       candles    : amber, candlestick chart (good for trainers / courses)
+       chart      : green, line chart (tools / indicators)
+       flow       : violet, flow lines (data / tracking)
+       link       : violet, generic chain link (any website)
+       cart       : amber, shopping / store
+       book       : amber, course / guide / ebook
+       mail       : orange, newsletter / email
+       code       : slate, code / repo
+       podcast    : pink, microphone
      ============================================================================= */
 };

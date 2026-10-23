@@ -27,7 +27,12 @@ swap the config, ship your own version tonight.
 2. **Open `config.js`.** That's the only file you touch. Set your name, tagline,
    bio, and monogram, then list your links in `sections`. Copy an existing
    `{ ... }` block, change `title` / `sub` / `url`, pick an `icon` from the list
-   at the bottom of the file.
+   at the bottom of the file. Brand names (`youtube`, `spotify`, `x`, `github`,
+   `substack`, `tradingview`, `discord`) render the real app icon on its brand
+   color, and the card glows that color on hover. Generic glyphs each get their
+   own color too. Want your own image? Drop a PNG in `assets/icons/` and set
+   `img: "assets/icons/thing.png"` on the link. Everything is inline SVG or a
+   local file: no favicon API, nothing phones home.
 3. **Pick your colors.** The CSS custom properties at the top of `index.html`
    (`:root { --bg, --cyan, --amber, ... }`) control the whole palette. Change a
    handful of hex values and the glow, ticker tape, and link cards all follow.
